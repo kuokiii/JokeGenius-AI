@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 
-const OPENROUTER_API_KEY = "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"
+const 
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
@@ -59,7 +59,7 @@ export async function GET(request: Request) {
 
     console.log("Sending request to OpenRouter API with key:", OPENROUTER_API_KEY.substring(0, 10) + "...")
 
-    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+    const response = await fetch {
       method: "POST",
       headers: {
         Authorization: `Bearer ${OPENROUTER_API_KEY}`,
@@ -68,7 +68,7 @@ export async function GET(request: Request) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "google/gemini-2.0-pro-exp-02-05:free",
+        model: 
         messages: [
           {
             role: "system",
