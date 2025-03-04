@@ -1,0 +1,23 @@
+# JokeGenius AI CODEOWNERS
+# This file defines individuals or teams responsible for code in this repository
+# Each line is a file pattern followed by one or more owners
+
+# Default owners for everything in the repo
+* @kuokiii
+
+# Core application files
+/app/* @kuokiii
+/components/* @kuokiii
+/providers/* @kuokiii
+
+# API routes
+/app/api/* @kuokiii
+
+# Configuration files
+*.config.js @kuokiii
+*.config.ts @kuokiii
+package.json @kuokiii
+tsconfig.json @kuokiii
+
+# Documentation
+*.md @kuokiii
